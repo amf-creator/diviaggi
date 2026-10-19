@@ -1,4 +1,26 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/terminosycondiciones",
+      "destination": "https://legal.diviaggi.app/terminos",
+      "permanent": true
+    },
+    {
+      "source": "/terminos",
+      "destination": "https://legal.diviaggi.app/terminos",
+      "permanent": true
+    },
+    {
+      "source": "/avisodeprivacidad",
+      "destination": "https://legal.diviaggi.app/privacidad",
+      "permanent": true
+    },
+    {
+      "source": "/privacidad",
+      "destination": "https://legal.diviaggi.app/privacidad",
+      "permanent": true
+    }
+  ]
 }
