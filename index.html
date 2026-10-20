@@ -590,6 +590,11 @@
   setTimeout(restart, 6600);
 </script>
 
+  <!-- Espacio para el botón del chat: los íconos de redes no se enciman con él -->
+  <style>
+    .foot-social{margin-right:220px}
+    @media (max-width:640px){ .foot{padding-bottom:88px} .foot-social{margin-right:0} }
+  </style>
   <!-- Chat de Diviaggi: califica leads y los envía al CRM (crm."Leads") -->
   <script src="/diviaggi-chat.js"
     data-endpoint="https://atpojhyqycyjzgfafqfv.supabase.co/functions/v1/chatbot-lead"
